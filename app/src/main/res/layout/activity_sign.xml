@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:weightSum="1"
+    tools:context=".SignActivity">
+
+    <EditText
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00"
+        android:layout_marginTop="20dp"
+        android:hint="请输入签名"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"/>
+
+    <Button
+        android:id="@+id/sign_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:text="完成"
+        android:textColor="#ffffff"/>
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:text="用户名："
+        android:layout_marginLeft="20dp"
+        android:textSize="15sp"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="100dp"/>
+    <EditText
+        android:hint="请输入用户名"
+        android:id="@+id/edt_name"
+        android:maxLength="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="-40dp"/>
+    <TextView
+        android:text="密    码："
+        android:layout_marginLeft="20dp"
+        android:textSize="15sp"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/edt_pwd"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="-40dp"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        android:maxLength="10" />
+    <Button
+        android:id="@+id/edt_commit"
+        android:text="登录"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorPrimary"
+        android:textSize="20sp"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>
